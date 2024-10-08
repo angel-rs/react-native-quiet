@@ -20,6 +20,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency 'QuietModemKit', '~> 0.3.2'
+  # s.dependency 'QuietModemKit', '0.3.2'
 end
-
