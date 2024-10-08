@@ -6,6 +6,5 @@ target 'RNQuiet' do
   use_frameworks!
 
   # Pods for RNQuiet
-  pod 'QuietModemKit', '~> 0.0.1'
-
+  pod 'QuietModemKit', :git => "https://github.com/quiet/QuietModemKit"
 end

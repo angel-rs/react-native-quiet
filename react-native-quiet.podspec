@@ -9,17 +9,17 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   react-native-quiet
                    DESC
-  s.homepage     = "https://github.com/cawfree/react-native-quiet"
+  s.homepage     = "https://github.com/angel-rs/react-native-quiet"
   s.license      = "MIT"
   # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
   s.authors      = { "Alex Thomas" => "hello@cawfree.com" }
   s.platforms    = { :ios => "9.0", :tvos => "10.0" }
-  s.source       = { :git => "https://github.com/cawfree/react-native-quiet.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/angel-rs/react-native-quiet.git" }
 
   s.source_files = "ios/**/*.{h,m,swift}"
   s.requires_arc = true
 
   s.dependency "React"
-    s.dependency 'QuietModemKit', '~> 0.0.1'
+  s.dependency 'QuietModemKit', '~> 0.3.2'
 end
 
